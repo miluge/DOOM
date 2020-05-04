@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'bw_modelicamedium';
+  src: url('bwmodelica-medium-webfont.woff2') format('woff2'),
+       url('bwmodelica-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bw_modelica_ss01black';
+  src: url('bwmodelicass01-black-webfont.woff2') format('woff2'),
+       url('bwmodelicass01-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.modelica {
+  font-family: 'bw_modelicamedium';
+  font-size: 18px;
+  line-height: 1.8em;"
+}
+.topnbot {
+    width: 100%;
+    height: 43px;
+    background-color: #f1f6f9;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+.topleft{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 45px;
+  font-family: 'bw_modelicamedium';
+  color: #a8b6be;
+}
+.topright {
+  margin-right: 45px;
+  float: inline-end;
+}
+.phone {
+  display: flex;
+  height: 43px;
+  align-items: center;
+  margin-right: 35px;
+}
+.phone a {
+  display: flex;
+  background-color:#cfdfe9;
+  color:#ffffff;
+  height: 43px;
+  width: 43px;
+  align-items: center;
+}
+.phone img {
+  padding-left: 12px;
+  justify-content: center;
+}
+.phone p {
+  font-family: 'bw_modelicamedium';
+  letter-spacing: 0.8px;
+  margin-left: 1em;
+  color: #9babb4;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.social-links {
+  margin-right: 16px;
+  
+}
+.navbar {
+    width: 100%;
+    height: 104px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left: 45px;
+    padding-right: 30px;
+}
+.nav-links {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-family: 'bw_modelicamedium';
+  }
+.navlogo {
+  height: fit-content;
+}
+
+.flex-center-vertically-grad {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 921px;
+}
+.flex-center-vertically-grad p {
+  color: white;
+  padding-left: 25%;
+  font-family: 'bw_modelicamedium';
+
+}
+.marketing_feat {
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+  
+}
+.flex-center-vertically-content-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1001px;
+}
+.bot {
+    width: 100%;
+    display: inline-flex ;
+    overflow: hidden;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #d3e2eb;
+    flex-wrap: wrap;
+    
+}
+.bot p {
+  color: #a4b7c3;
+  padding-left: 45px;
+}
+
+.footer {
+  background-color: #f1f6f9;
+  width: 100%;
+  height: 474px;
+  flex-wrap: nowrap;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.logo {
+   padding-bottom: 150px;
+}
+#grad {
+    width: 100%;
+    height: 1001px;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #feaa8a, #ffb982, #ffc97a, #ffdc75, #fef076);
+} 
+#discover {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 10;
+  font-family: 'bw_modelicamedium';
+  font-size: 12px;
+  color: #838383;
+  font-weight: normal;
+  padding-bottom: 10%;
+}
+.content-box {
+  height: 921px;
+  background-color: #f9b783;
+  box-sizing: content-box;
+  padding: 20px 20px 50px 20px;
+  margin: 10px;
+}
+.marketing {
+  height: 651px;
+  display: flex;
+  justify-content: center;
+}
+
+article p {
+  font-family: 'bw_modelica_ss01black';
+  font-size: 14px;
+  color: #838383;
+  align-items: center;
+  font-weight: normal;
+}
+article h4 {
+  color: black;
+  font-family: 'bw_modelica_ss01black';
+  font-size: 24px;
+  padding-bottom: 36px;
+  padding-top: 18px;
+}
+
+.copyright {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.comments {
+  display: block;
+  margin: 0 auto;
+  align-content: center;
+  padding-left: 300px;
+}
+.articles {
+  height: 1020px;
+  width: 80%%;
+  display: flex;
+  align-content: center; 
+}
+article {
+  flex: 50%;
+}
+
+.thumbnails {
+  display: block;
+  object-fit: contain;
+}
+.category {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 34px;
+  font-family: 'bw_modelicamedium'; 
+}
+
+/* Table Prix */
+
+
